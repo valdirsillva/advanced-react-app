@@ -7,13 +7,16 @@ class Twitter extends Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount')
+    const { posts } = this.props;
+    
+    console.log('componentDidMount', posts)
   }
 
   render() {
+
     return (
        <div>
-         Teste
+          componentDidMount         
        </div>
     )
   }
