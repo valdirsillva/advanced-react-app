@@ -12,6 +12,7 @@ class Twitter extends Component {
     console.log('componentDidMount', posts)
   }
 
+
   render() {
 
     return (
